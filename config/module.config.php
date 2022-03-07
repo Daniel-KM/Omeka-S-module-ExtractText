@@ -23,11 +23,11 @@ return [
             'odt2txt' => ExtractText\Service\Extractor\Odt2txtFactory::class,
             'pdftotext' => ExtractText\Service\Extractor\PdftotextFactory::class,
             'tesseract' => ExtractText\Service\Extractor\TesseractFactory::class,
+            'xml' => ExtractText\Service\Extractor\XmlFactory::class,
         ],
         'invokables' => [
             'filegetcontents' => ExtractText\Extractor\Filegetcontents::class,
             'domdocument' => ExtractText\Extractor\Domdocument::class,
-            'xml' => ExtractText\Extractor\Xml::class,
         ],
         'aliases' => [
             'application/msword' => 'catdoc',
