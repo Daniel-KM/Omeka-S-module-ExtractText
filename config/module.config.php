@@ -27,6 +27,7 @@ return [
         'invokables' => [
             'filegetcontents' => ExtractText\Extractor\Filegetcontents::class,
             'domdocument' => ExtractText\Extractor\Domdocument::class,
+            'xml' => ExtractText\Extractor\Xml::class,
         ],
         'aliases' => [
             'application/msword' => 'catdoc',
@@ -39,6 +40,7 @@ return [
             'text/xml' => 'domdocument',
             'application/xml' => 'domdocument',
             'application/tei+xml' => 'domdocument',
+            'application/alto+xml' => 'xml',
             'image/png' => 'tesseract',
             'image/jpeg' => 'tesseract',
             'image/tiff' => 'tesseract',
