@@ -78,6 +78,11 @@ a part of the poppler-utils package.
 
 Used to extract text from image files (OCR). Requires [tesseract](https://tesseract-ocr.github.io/tessdoc/Command-Line-Usage.html).
 
+### xml
+
+Used to extract some xml from XML files. No requirements on most servers, else
+install the php extensions "xml" and "xmlreader".
+
 ## Disabling text extraction
 
 You can disable text extraction for individual extractors in the module config
