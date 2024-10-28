@@ -56,7 +56,7 @@ class Xml implements ExtractorInterface
     }
 
     /**
-     * Check if an xml is well formed and log issues.
+     * Check if an xml is well-formed and log issues.
      *
      * @link https://stackoverflow.com/questions/13858074/validating-a-large-xml-file-400mb-in-php#answer-13858478
      */

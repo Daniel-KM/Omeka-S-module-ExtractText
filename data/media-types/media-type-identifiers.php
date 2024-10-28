@@ -10,6 +10,11 @@
  * Some formats may need more check in code source.
  *
  * @var array
+ *
+ * @see \Omeka\File\TempFile
+ * @see \ExtractText /data/media-types/media-type-identifiers
+ * @see \IiifSearch\View\Helper\XmlMediaType
+ * @see \XmlViewer /data/media-types/media-type-identifiers
  */
 return [
     'application/xml'                                   => 'application/xml',
