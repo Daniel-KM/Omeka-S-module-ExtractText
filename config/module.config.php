@@ -40,6 +40,7 @@ return [
             'text/xml' => 'domdocument',
             'application/xml' => 'domdocument',
             'application/tei+xml' => 'domdocument',
+            'application/alto+xml' => 'xml',
             'image/png' => 'tesseract',
             'image/jpeg' => 'tesseract',
             'image/tiff' => 'tesseract',

@@ -80,7 +80,7 @@ Used to extract text from image files (OCR). Requires [tesseract](https://tesser
 
 ### xml
 
-Used to extract xml from XML files. No requirements on most servers, else
+Used to extract some xml from XML files. No requirements on most servers, else
 install the php extensions "xml" and "xmlreader".
 
 ## Disabling text extraction
