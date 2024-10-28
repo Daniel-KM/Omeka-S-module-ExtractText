@@ -53,6 +53,10 @@ Used to extract text from DOC and RTF files. Requires [catdoc](https://linux.die
 
 Used to extract text from DOCX files. Requires [docx2txt](http://docx2txt.sourceforge.net/).
 
+### domdocument
+
+Used to extract text from XML files. No requirements.
+
 ### filegetcontents
 
 Used to extract text from TXT files. No requirements.

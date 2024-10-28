@@ -27,6 +27,7 @@ return [
         ],
         'invokables' => [
             'filegetcontents' => ExtractText\Extractor\Filegetcontents::class,
+            'domdocument' => ExtractText\Extractor\Domdocument::class,
         ],
         'aliases' => [
             'application/msword' => 'catdoc',
@@ -34,10 +35,11 @@ return [
             'application/pdf' => 'pdftotext',
             'application/vnd.oasis.opendocument.text' => 'odt2txt',
             'application/vnd.openxmlformats-officedocument.wordprocessingml.document' => 'docx2txt',
-            'application/xml' => 'xml',
             'text/html' => 'lynx',
             'text/plain' => 'filegetcontents',
-            'text/xml' => 'xml',
+            'text/xml' => 'domdocument',
+            'application/xml' => 'domdocument',
+            'application/tei+xml' => 'domdocument',
             'image/png' => 'tesseract',
             'image/jpeg' => 'tesseract',
             'image/tiff' => 'tesseract',
@@ -45,6 +47,7 @@ return [
             'image/gif' => 'tesseract',
             'image/webp' => 'tesseract',
             'image/bmp' => 'tesseract',
+            'application/alto+xml' => 'xml',
         ],
     ],
     'extract_text' => [
